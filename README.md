@@ -33,7 +33,7 @@ A cada acerto, uma nova cor é adicionada à sequência
 Se errar, o jogo emite um som de erro e recomeça do início
 Você pode visualizar o jogo online através do GitHub Pages:
 
-🔗 [Clique aqui para jogar](https://seuusuario.github.io/genius-jogo-nome-aluno)
+🔗 [Clique aqui para jogar]( https://vitoriagabriela2512.github.io/genius-jogo-nome-aluno/)
 
 Ou, para rodar localmente:
 
