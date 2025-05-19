@@ -1,4 +1,4 @@
-# genius-jogo-nome-aluno
+# Jogo Genius
 🔊 Funcionalidades
 🔁 Geração de sequência aleatória de cores a cada rodada
 
