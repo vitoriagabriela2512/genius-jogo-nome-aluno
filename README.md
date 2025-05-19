@@ -10,8 +10,6 @@
 
 📈 Exibição do número da rodada (placar)
 
-🎵 Música de fundo com botão para ligar/desligar
-
 🌗 Alternância de tema entre modo claro e escuro
 
 ▶️ Sobre o Jogo Genius
