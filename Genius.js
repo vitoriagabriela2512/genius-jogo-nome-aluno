@@ -70,16 +70,23 @@ function verificarClique(cor) {
     setTimeout(gerarProximaCor, 1000);
   }
 }
-
 function tocarSom(cor) {
-  sons[cor].currentTime = 0;
-  sons[cor].play();
+  const som = sons[cor];
+  som.pause();
+  som.currentTime = 0;
+  som.play().catch(e => {
+    console.warn("Falha ao tocar som:", e);
+  });
 }
 
 function somErro() {
+  sons.erro.pause();
   sons.erro.currentTime = 0;
-  sons.erro.play();
+  sons.erro.play().catch(e => {
+    console.warn("Falha ao tocar som de erro:", e);
+  });
 }
+
 
 function animarBotao(cor) {
   const botao = document.querySelector(`.btn.${cor}`);
@@ -88,11 +95,6 @@ function animarBotao(cor) {
 }
 let recorde = 0;
 const recordeTexto = document.getElementById('recorde');
-
-const somFundo = document.getElementById('som-fundo');
-const somFundoBtn = document.getElementById('som-fundo-btn');
-let somLigado = true;
-
 const temaBtn = document.getElementById('tema-btn');
 temaBtn.addEventListener('click', () => {
   document.body.classList.toggle('modo-claro');
