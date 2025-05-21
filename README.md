@@ -1,4 +1,4 @@
-# genius-jogo-nome-aluno
+# Jogo Genius
 🔊 Funcionalidades
 🔁 Geração de sequência aleatória de cores a cada rodada
 
@@ -9,8 +9,6 @@
 ❌ Som de erro e reinício automático ao errar a sequência
 
 📈 Exibição do número da rodada (placar)
-
-🎵 Música de fundo com botão para ligar/desligar
 
 🌗 Alternância de tema entre modo claro e escuro
 
@@ -31,3 +29,26 @@ Reproduza a sequência clicando nos botões coloridos
 A cada acerto, uma nova cor é adicionada à sequência
 
 Se errar, o jogo emite um som de erro e recomeça do início
+Você pode visualizar o jogo online através do GitHub Pages:
+
+🔗 [Clique aqui para jogar]( https://vitoriagabriela2512.github.io/genius-jogo-nome-aluno/)
+
+Ou, para rodar localmente:
+
+1. Clone o repositório:
+
+
+2. Abra o `index.html` no navegador.
+
+---
+
+## 👨‍💻 Autor
+
+**Vitória Gabriela Fernandes da Luz**  
+Projeto desenvolvido para a disciplina de **Programação Web 1 – Curso Técnico em Informática**.
+
+---
+
+## 📝 Licença
+
+Este projeto é de uso educacional.
