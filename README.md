@@ -44,7 +44,7 @@ Ou, para rodar localmente:
 
 ## 👨‍💻 Autor
 
-**Vitória Gabriela Fernandes da Luz**  
+**Vitória Gabriela Fernandes da Luz e Flavia da Silva**  
 Projeto desenvolvido para a disciplina de **Programação Web 1 – Curso Técnico em Informática**.
 
 ---
